@@ -1,4 +1,4 @@
-export const config = {
+export default config = {
     appwriteApiEndpoint: String(import.meta.env.VITE_APPWRITE_API_ENDPOINT),
     appwriteProjectId: String(import.meta.env.VITE_APPWRITE_PROJECT_ID),
     appwriteDatabaseId: String(import.meta.env.VITE_APPWRITE_DATABASE_ID),
